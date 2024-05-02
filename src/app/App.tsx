@@ -73,7 +73,7 @@ export default function App() {
           htmlFor="input-group-1"
           className="block mb-2 text-sm font-medium text-slate-100"
         >
-          Enter Your Wallet Address
+          Enter Your Ethereum Wallet Address
         </label>
         <div className="flex items-center gap-2">
           <input
@@ -115,6 +115,12 @@ export default function App() {
             )}
           </button>
         </div>
+        <button
+          onClick={() => setWalletAddress(RAINBOW_WALLET_ADDRESS)}
+          className="text-xs mt-2 text-slate-400 underline"
+        >
+          Want to use an example wallet address?
+        </button>
       </div>
 
       <ul className="w-full max-w-md divide-y divide-gray-200">

@@ -5,7 +5,7 @@ import { Footer } from "@/app/components/Footer";
 import { Header } from "@/app/components/Header";
 
 export const metadata: Metadata = {
-  title: "eWallet",
+  title: "ethWallet",
   description: "Personalising your finances",
 };
 
